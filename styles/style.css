@@ -1,0 +1,474 @@
+
+body{
+background-color:antiquewhite;
+font-family: sans-serif;
+
+}
+header{
+background-color:rgba(255,144,14,0.1) ;
+width: 1200px;
+margin: 0 auto;
+
+}
+
+/* nav */
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.nav-title{
+font-size: 30px;
+font-weight: 700;
+margin-left:100px
+}
+nav > ul {
+display: flex;
+gap: 80px;
+list-style: none;
+margin-right: 100px;
+font-size: 20px;
+font-weight: 500;
+}
+/*-- brand new section */
+
+
+.brandnew-section {
+margin: auto;
+text-align: center;
+margin-top: 50px;
+width: 600px;
+height: 250px;
+}
+.section-title{
+font-size: 30px;
+font-weight: 700;
+}
+.section-description{
+font-size: 20px;
+font-weight: 500;
+padding-top: 10px;
+}
+.btn{
+border:3px solid whitesmoke;
+border-radius: 10px;
+padding:15px 20px;
+background-color: orange;
+}
+.head-banner{
+width:1000px;
+margin:0 auto;
+padding-top:30px;
+}
+.head-banner > img{
+width: 100%;
+height: 100%;
+padding-bottom: 70px;
+}
+
+/* main section and Quick list of our features */
+main{
+background-color:whitesmoke;
+width: 1200px;
+margin: 0 auto;
+padding-top:70px;
+padding-bottom: 50px;
+}
+
+.all-feature{
+display:grid;
+grid-template-columns: 500px 500px;
+width: 1200px;
+column-gap: 50px;
+align-items: center;
+justify-content: center;
+
+}
+.feature-photo{
+width: 500px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+}
+.feature-photo img {
+width: 100%;
+height: 100%;
+}
+.feature-details{
+width: 500px;
+}
+.feature-title{
+font-size: 30px;
+font-weight: 700;
+}
+.word-gray{
+color: gray;
+}
+.word-orange{
+color: orange;
+}
+.feature-description{
+font-size: 20px;
+font-weight: 500;
+}
+
+/* Features you will love & enjoy section */
+
+.love-section{
+padding-top: 200px;
+}
+
+.features-love{
+display: grid;
+grid-template-columns: repeat(2, 500px);
+column-gap: 50px;
+justify-content: center;
+
+}
+.love-details{
+width:500px ;
+text-align: center;
+align-items: center;
+}
+.title-div{
+display: flex;
+}
+.left-overline{
+height: 100px;
+width:7px;
+background-color:orange;
+position: absolute;
+}
+.love-title{
+font-size: 40px;
+font-weight: 700px;
+margin-left:30px;
+}
+.love-description{
+font-size: 20px;
+font-weight: 500;
+}
+
+.version-parent{
+background-color: rgb(247, 243, 243);
+width:px;
+
+}
+
+.all-version{
+background-color: aliceblue;
+border: 5px solid white;
+border-radius: 20px;
+margin:20px 0;
+
+}
+.version-name{
+font-size: 20px;
+font-weight: 700;
+}
+.version-description{
+font-size: 20px;
+}
+
+
+.section-image{
+width:500px;
+}
+.section-image > img{
+width: 100%;
+height: 100%;
+}
+.title-description{
+text-align: center;
+width: 500px;
+margin-left: 100px;
+margin-top: 150px;
+}
+.facts-title{
+font-size: 30px;
+font-weight:700 ;
+}
+.facts-description{
+font-size: 19px;
+font-weight: 400;
+}
+.logo{
+width:240px ;
+height: 200px;
+border: 2px solid orange;
+justify-content: center;
+background-color: white;
+}
+.logo > p{
+text-align: center;
+font-size: 25px;
+}
+.awards-number{
+font-weight: 700;
+}
+.win{
+font-weight: 400;
+}
+
+.projects-work{
+display: grid;
+grid-template-columns: repeat(4,270px);
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+row-gap: 20px;
+}
+
+.button{
+background-color:orange;
+width: 160px;
+height: 80px;
+position: absolute;
+margin-left: -20px;
+margin-top:-80px;
+font-size: 30px;
+text-align: center;
+font-size: 35px;
+padding-top:15px;
+color: white;
+}
+.color-word{
+padding: 0;
+margin: 0;
+font-size: 15px;
+}
+/* our sponsor section */ 
+
+.sponsor-section{
+margin-bottom:100px;
+}
+.sponsor-title{
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+}
+.sponsor-description{
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+}
+
+.sponsor-list{
+display: grid;
+grid-template-columns: repeat(5, 200px);
+justify-content: center;
+align-items: center;
+margin-top:100px;
+padding-bottom: 30px;
+}
+.sponsor-name{
+opacity: 0.65;
+background-color: white;}
+
+/* our section title */
+
+.teammate-section{
+justify-content: center;
+}
+
+.teammate-title{
+
+font-size: 30px;
+font-weight: 700px;
+color: brown;
+text-align: center;
+padding-top: 20px;
+}
+.extra-color{
+color: blue;
+}
+.teammate-description{
+
+font-size: 20px;
+font-weight: 500;
+text-align: center;
+padding-bottom: 30px;}
+
+.teammate-photo{
+width: 300px;
+height:300px;
+text-align: center;
+}
+.teammate-bio  img{
+width: 100%;
+height: 100%;
+}
+.teammate-details {
+display: grid;
+grid-template-columns: repeat(3, 350px);
+justify-content: center;
+align-items: center;
+column-gap: 20px;
+}
+.teammate-bio{
+border: 4px solid rgb(91, 119, 137);
+text-align:center;
+border-radius:20px;
+}
+.name{
+font-size: 22px;
+font-weight: 700;
+}
+.country{
+padding-top:20px;
+}
+
+/* footer section */
+footer{
+width: 1200px;
+background-color:gray;
+margin:0 auto;
+text-align: center;
+margin: auto;
+}
+.finish-project{
+font-size: 30px;
+font-weight: 600;
+align-items: center;
+padding:40px 0 ;
+}
+
+/* media query responsive */
+
+
+@media screen and (max-width:676px) {
+
+header{
+background-color:rgba(255,144,14,0.1) ;
+width:100%;
+}
+
+nav{
+display: flex;
+align-items:center;
+flex-direction: column;
+}
+.nav-title{
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+margin: auto;
+padding-bottom: 30px;
+}
+nav > ul {
+display:flex;
+gap:10px;
+list-style: none;
+margin:auto;
+font-size: 20px;
+font-weight:500;
+flex-wrap: column;
+flex-direction:column;
+}
+.brandnew-section {
+width:100%;
+}
+.section-description{
+font-size: 18px;
+font-weight: 400;
+padding-top: 10px;
+overflow-wrap: break-word;
+}
+.head-banner{
+width:100%;
+margin-top:40px;
+}
+.btn{
+padding-bottom: 40px;
+}
+main{
+background-color:whitesmoke;
+width: 100%;
+}
+.all-feature{
+display:grid;
+grid-template-columns:repeat(1, 1fr);
+width: 100%;
+align-items: center;
+justify-content: center;
+
+}
+.feature-details{
+width: 100%;
+justify-content: center;
+align-items: center;
+margin:auto;
+text-align:center;
+}
+.feature-photo{
+width: 100%;
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+}
+.features-love{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+justify-content: center;
+flex-direction: column;
+}
+.love-details{
+width:100% ;
+}
+.section-image{
+width:100%;
+}
+.title-description{
+text-align: center;
+width: 100%;
+margin-top: 150px;
+}
+
+.title-description {
+text-align: center;
+width:100%;
+margin: auto;
+margin-top: 150px;
+}
+.logo{
+width:100%;
+height: 100%;
+border: 2px solid orange;
+justify-content: center;
+align-items:center;
+background-color: white;
+}
+.projects-work{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+row-gap: 10px;
+}
+.sponsor-list{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+justify-content:center;
+align-items:center;
+margin:50px;
+text-align: center;
+padding-bottom: 30px;
+gap:10px;
+}
+.teammate-photo{
+width: 100%;
+height:100%;
+text-align: center;
+}
+.teammate-details {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+footer{
+width: 100%;
+}
+}
+
