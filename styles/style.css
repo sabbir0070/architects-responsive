@@ -197,11 +197,17 @@ width:240px ;
 height: 200px;
 border: 2px solid orange;
 justify-content: center;
-background-color: white;
+background-color:white;
+transition:2s ease-in;
+}
+.logo:hover{
+background-color: aquamarine;
+transform: rotate(10deg);
 }
 .logo > p{
 text-align: center;
 font-size: 25px;
+
 }
 .awards-number{
 font-weight: 700;
@@ -255,15 +261,17 @@ text-align: center;
 
 .sponsor-list{
 display: grid;
-grid-template-columns: repeat(5, 200px);
-justify-content: center;
+grid-template-columns: repeat(5, 160px);
+justify-content: space-evenly;
 align-items: center;
 margin-top:100px;
 padding-bottom: 30px;
+
 }
 .sponsor-name{
-opacity: 0.65;
-background-color: white;}
+opacity: 0.75;
+column-gap: 50px;
+}
 
 /* our section title */
 
@@ -386,12 +394,11 @@ background-color:whitesmoke;
 width: 100%;
 }
 .all-feature{
-display:grid;
-grid-template-columns:repeat(1, 1fr);
+display:flex;
 width: 100%;
 align-items: center;
 justify-content: center;
-
+flex-direction:column-reverse;
 }
 .feature-details{
 width: 100%;
@@ -399,6 +406,11 @@ justify-content: center;
 align-items: center;
 margin:auto;
 text-align:center;
+}
+.btn{
+margin-bottom:30px;
+padding-top:20px;
+padding-bottom:20px;
 }
 .feature-photo{
 width: 100%;
@@ -409,7 +421,7 @@ grid-template-columns: repeat(1, 1fr);
 display: grid;
 grid-template-columns: repeat(1, 1fr);
 justify-content: center;
-flex-direction: column;
+align-items: center;
 }
 .love-details{
 width:100% ;
@@ -436,6 +448,7 @@ border: 2px solid orange;
 justify-content: center;
 align-items:center;
 background-color: white;
+transition: 2s ease-in-out;
 }
 .projects-work{
 display: grid;
@@ -447,13 +460,13 @@ row-gap: 10px;
 }
 .sponsor-list{
 display: grid;
-grid-template-columns: repeat(1, 1fr);
+grid-template-columns: repeat(1,1fr);
 justify-content:center;
 align-items:center;
 margin:50px;
 text-align: center;
 padding-bottom: 30px;
-gap:10px;
+gap:40px;
 }
 .teammate-photo{
 width: 100%;
